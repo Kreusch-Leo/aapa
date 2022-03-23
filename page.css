@@ -1,10 +1,27 @@
-html{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --cor1: #1F2F16;;
+    --cor2: #B0B2B8;
+    --cor3: #7D7E75;
+    --cor4: #4F5D2F;
+    --cor5: #423629;
+    --cor6: #FF101F;
+    --fonte1: 'Flamenco', cursive;
+    --fonte2: 'Montserrat', sans-serif;
+    }
+header{
+    background-color: var(--cor1);
     margin: 0px;
 }
-
-header{
-    background-color: #1F2F16;
-    margin: 0px;
+h1{
+    text-align: center;
+    font-family: var(--fonte1);
 }
 main{
     margin: 0px;
