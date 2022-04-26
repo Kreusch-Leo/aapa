@@ -26,6 +26,11 @@ h1{
 main{
     margin: 0px;
 }
+#logo{
+    display: block;
+    max-width: 25%;
+    margin: 0px, auto;
+}
 p{
     margin: 0%;
 }
